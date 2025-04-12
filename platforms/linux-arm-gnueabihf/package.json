@@ -1,0 +1,42 @@
+{
+  "name": "@matu6968/open-btime-linux-arm-gnueabihf",
+  "description": "Prebuilt binary package for `open-btime` on `linux-arm-gnueabihf`.",
+  "version": "0.1.0",
+  "os": [
+    "linux"
+  ],
+  "cpu": [
+    "armv7l"
+  ],
+  "main": "index.node",
+  "files": [
+    "index.node"
+  ],
+  "neon": {
+    "type": "binary",
+    "rust": "arm-unknown-linux-gnueabihf",
+    "node": "linux-arm-gnueabihf",
+    "os": "linux",
+    "arch": "armv7l",
+    "abi": "gnu"
+  },
+  "author": "matu6968",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/matu6968/open-btime.git"
+  },
+  "keywords": [
+    "obsidian",
+    "obsidianmd",
+    "btime",
+    "rust",
+    "time",
+    "open",
+    "source"
+  ],
+  "bugs": {
+    "url": "https://github.com/matu6968/open-btime/issues"
+  },
+  "homepage": "https://github.com/matu6968/open-btime#readme",
+  "license": "MIT"
+}

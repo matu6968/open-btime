@@ -1,0 +1,42 @@
+{
+  "name": "@matu6968/open-btime-darwin-x64",
+  "description": "Prebuilt binary package for `open-btime` on `darwin-x64`.",
+  "version": "0.1.0",
+  "os": [
+    "darwin"
+  ],
+  "cpu": [
+    "x64"
+  ],
+  "main": "index.node",
+  "files": [
+    "index.node"
+  ],
+  "neon": {
+    "type": "binary",
+    "rust": "x86_64-apple-darwin",
+    "node": "darwin-x64",
+    "os": "darwin",
+    "arch": "x64",
+    "abi": null
+  },
+  "author": "matu6968",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/matu6968/open-btime.git"
+  },
+  "keywords": [
+    "obsidian",
+    "obsidianmd",
+    "btime",
+    "rust",
+    "time",
+    "open",
+    "source"
+  ],
+  "bugs": {
+    "url": "https://github.com/matu6968/open-btime/issues"
+  },
+  "homepage": "https://github.com/matu6968/open-btime#readme",
+  "license": "MIT"
+}

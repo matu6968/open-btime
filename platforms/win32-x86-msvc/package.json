@@ -1,0 +1,42 @@
+{
+  "name": "@matu6968/open-btime-win32-x86-msvc",
+  "description": "Prebuilt binary package for `open-btime` on `win32-x86-msvc`.",
+  "version": "0.1.0",
+  "os": [
+    "win32"
+  ],
+  "cpu": [
+    "x86"
+  ],
+  "main": "index.node",
+  "files": [
+    "index.node"
+  ],
+  "neon": {
+    "type": "binary",
+    "rust": "x86-pc-windows-msvc",
+    "node": "win32-x86-msvc",
+    "os": "win32",
+    "arch": "x86",
+    "abi": "msvc"
+  },
+  "author": "matu6968",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/matu6968/open-btime.git"
+  },
+  "keywords": [
+    "obsidian",
+    "obsidianmd",
+    "btime",
+    "rust",
+    "time",
+    "open",
+    "source"
+  ],
+  "bugs": {
+    "url": "https://github.com/matu6968/open-btime/issues"
+  },
+  "homepage": "https://github.com/matu6968/open-btime#readme",
+  "license": "MIT"
+}
