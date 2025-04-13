@@ -14,7 +14,7 @@
   ],
   "neon": {
     "type": "binary",
-    "rust": "arm-unknown-linux-gnueabihf",
+    "rust": "armv7-unknown-linux-gnueabihf",
     "node": "linux-arm-gnueabihf",
     "os": "linux",
     "arch": "armv7l",

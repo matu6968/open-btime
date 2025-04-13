@@ -14,7 +14,7 @@
   ],
   "neon": {
     "type": "binary",
-    "rust": "x86-pc-windows-msvc",
+    "rust": "i686-pc-windows-msvc",
     "node": "win32-x86-msvc",
     "os": "win32",
     "arch": "x86",
